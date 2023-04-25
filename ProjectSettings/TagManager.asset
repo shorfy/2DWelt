@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Building 1
+    uniqueID: 1643420531
+    locked: 0
+  - name: Building 2
+    uniqueID: 488487055
+    locked: 0
+  - name: Building 3
+    uniqueID: 1462705753
+    locked: 0
+  - name: Character 1
+    uniqueID: 297857779
+    locked: 0
+  - name: Character 2
+    uniqueID: 1806874741
+    locked: 0
+  - name: Character 3
+    uniqueID: 1956801917
+    locked: 0
+  - name: Character 4
+    uniqueID: 955764857
+    locked: 0
