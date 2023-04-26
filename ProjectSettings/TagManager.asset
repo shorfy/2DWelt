@@ -50,15 +50,51 @@ TagManager:
   - name: Building 3
     uniqueID: 1462705753
     locked: 0
-  - name: Character 1
+  - name: Animal 1
     uniqueID: 297857779
     locked: 0
-  - name: Character 2
+  - name: Animal 2
     uniqueID: 1806874741
     locked: 0
-  - name: Character 3
+  - name: Animal 3
     uniqueID: 1956801917
     locked: 0
-  - name: Character 4
+  - name: Animal 4
     uniqueID: 955764857
+    locked: 0
+  - name: Shorf 1
+    uniqueID: 551069213
+    locked: 0
+  - name: Shorf 2
+    uniqueID: 1754938375
+    locked: 0
+  - name: Shorf 3
+    uniqueID: 2601156271
+    locked: 0
+  - name: Jolle 1
+    uniqueID: 4251032051
+    locked: 0
+  - name: Jolle 2
+    uniqueID: 2724640025
+    locked: 0
+  - name: Jolle 3
+    uniqueID: 1444516199
+    locked: 0
+  - name: Character 1
+    uniqueID: 4104996099
+    locked: 0
+  - name: Character 2
+    uniqueID: 2455119929
+    locked: 0
+  - name: Character 3
+    uniqueID: 3350377327
+    locked: 0
+  - name: Character 4
+    uniqueID: 838749419
+    locked: 0
+  - name: Fence
+    uniqueID: 783303373
+    locked: 0
+  - name: Tree
+    uniqueID: 39641285
     locked: 0
