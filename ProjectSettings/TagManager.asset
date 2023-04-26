@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - New tag
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -43,23 +42,23 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Building 1
-    uniqueID: 2162410757
+    uniqueID: 1643420531
     locked: 0
   - name: Building 2
-    uniqueID: 3573027795
+    uniqueID: 488487055
     locked: 0
   - name: Building 3
-    uniqueID: 1549452587
+    uniqueID: 1462705753
     locked: 0
   - name: Character 1
-    uniqueID: 3366416345
+    uniqueID: 297857779
     locked: 0
   - name: Character 2
-    uniqueID: 1116240581
+    uniqueID: 1806874741
     locked: 0
   - name: Character 3
-    uniqueID: 2256201807
+    uniqueID: 1956801917
     locked: 0
   - name: Character 4
-    uniqueID: 2486632423
+    uniqueID: 955764857
     locked: 0
