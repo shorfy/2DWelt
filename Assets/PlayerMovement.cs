@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,6 +16,12 @@ public class PlayerMovement : MonoBehaviour
         foreach (SpriteRenderer r in GetComponentsInChildren <SpriteRenderer>())
         {
             r.material.color = randomColor;
+            randomColor = Random.ColorHSV();
+        }
+        foreach (SpriteShapeRenderer c in GetComponentsInChildren<SpriteShapeRenderer>())
+        {
+            c.color = randomColor;
+            randomColor = Random.ColorHSV();
         }
     }
 
