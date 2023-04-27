@@ -9,6 +9,15 @@ public class PlayerMovement : MonoBehaviour
     float timer;
     SpriteRenderer sr;
 
+    void ChangeColor()
+    {
+        Color randomColor = Random.ColorHSV();
+        foreach (SpriteRenderer r in GetComponentsInChildren <SpriteRenderer>())
+        {
+            r.material.color = randomColor;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A)) moveVector.x = -1;
         if (Input.GetKey(KeyCode.S)) moveVector.y = -1;
         if (Input.GetKey(KeyCode.D)) moveVector.x = 1;
+        if (Input.GetKeyDown(KeyCode.F)) ChangeColor();
         moveVector.Normalize();
         transform.position += Time.deltaTime * speed * moveVector;
         if (moveVector.x < 0) sr.flipX = true;
