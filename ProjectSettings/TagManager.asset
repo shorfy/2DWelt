@@ -98,3 +98,9 @@ TagManager:
   - name: Tree
     uniqueID: 39641285
     locked: 0
+  - name: Car 1
+    uniqueID: 3346334429
+    locked: 0
+  - name: Car 2
+    uniqueID: 744438529
+    locked: 0
