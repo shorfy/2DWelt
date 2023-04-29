@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float speed = 5f;
     float timer;
     SpriteRenderer sr;
+    GameObject player; 
+
+    [SerializeField] GameObject[] characters;
 
     void ChangeColor()
     {
@@ -25,29 +28,28 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        sr = GetComponent<SpriteRenderer>();
-    }
     void ChangeSpeed()
     {
         if (speed == 5f)
         {
             speed = 10f;
-            return;
         }
-        if (speed == 10f)
+        else if (speed == 10f)
         {
-            speed = 15f;
-            return;
+            speed = 20f;
         }
-        if (speed == 15f)
+        else if (speed == 20f)
         {
             speed = 5f;
-            return;
         }
     }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        sr = GetComponent<SpriteRenderer>();
+    }
+    
 
     // Update is called once per frame
     void Update()
@@ -60,6 +62,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.S)) moveVector.y = -1;
         if (Input.GetKey(KeyCode.D)) moveVector.x = 1;
         if (Input.GetKeyDown(KeyCode.F)) ChangeColor();
+
         moveVector.Normalize();
         transform.position += Time.deltaTime * speed * moveVector;
         if (moveVector.x < 0) sr.flipX = true;
